@@ -12,6 +12,11 @@
   transition: filter 300ms;
 }
 
+.icon {
+  height: 2.5em;
+  margin: 1.5em;
+}
+
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #3f9023);
 }
@@ -104,4 +109,24 @@
 
 .read-the-docs {
   color: #888;
+}
+
+footer {
+  margin-top: 7em;
+}
+
+.start {
+  height: 100vh;
+}
+
+.start>img {
+  height: 50%;
+  border-radius: 50%;
+}
+
+@media (max-width: 375px) {
+  .start>img {
+    height: 30%;
+    border-radius: 50%;
+  }
 }

@@ -1,3 +1,4 @@
+import profilePhoto from './assets/profile_photo.svg'
 import reactLogo from './assets/react.svg'
 import vueLogo from '/vue.svg'
 import laravelLogo from '/laravel.svg'
@@ -17,6 +18,8 @@ import vscodeLogo from '/vscode.svg'
 import phpstormLogo from '/phpstorm.svg'
 import intellijideaLogo from '/intellijidea.svg'
 import viteLogo from '/vite.svg'
+import gmailLogo from '/gmail.svg'
+import githubLogo from '/github.svg'
 
 import './App.css'
 
@@ -24,8 +27,18 @@ function App() {
 
   return (
     <>
-      <h1>Fran Gregori Tandazo</h1>
+      <div className='start'>
+        <img src={profilePhoto} alt="Foto de perfil" />
+        <h1>Fran Gregori Tandazo</h1>
+        <p>Estudiante de desarrollo web</p>
+      </div>
 
+      <div className='card'>
+        <h2>Sobre mi</h2>
+        <p>Persona con ganas de realizar las prácticas del grado superior. Empático y sobre todo siempre con buena actitud, con muchas ganas de aprender como funciona la empresa y sus tecnologías. Me considero una persona trabajadora &#9935; y amable, siempre estoy dispuesto a ayudar a los demás.</p>
+        <p>Estudio en CIP FP BATOI y realizaré las prácticas en Septiembre &#128197;. Mi objetivo es realizar las prácticas en una empresa que busque continuedad. Ya que en caso de que todo vaya bien, me gustaría quedarme &#9989;.</p>
+        <p>&#128161;Las prácticas son una gran oportunidad de entrar al mundo laboral de la programación. Por lo tanto no quiero desaprovecharlas.</p>
+      </div>
       <div>
         <h2>Conocimientos</h2>
         <a target="_blank">
@@ -87,14 +100,18 @@ function App() {
         </a>
 
       </div>
-      <div className="card">
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
+
+      <footer>
+        <p className="read-the-docs">
+          Gracias por tu tiempo
         </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+        <a href="mailto:frangregori61@gmail.com" target="_blank">
+          <img src={gmailLogo} className="icon" alt="Gmail logo" />
+        </a>
+        <a href="https://github.com/FranGre" target="_blank">
+          <img src={githubLogo} className="icon" alt="GitHub logo" />
+        </a>
+      </footer>
     </>
   )
 }
