@@ -1,4 +1,4 @@
-import { Logo } from "../interfaces/Logo"
+import type { Logo } from "../interfaces/Logo"
 
 export default function Logo({ img, style, name }: Logo) {
 
