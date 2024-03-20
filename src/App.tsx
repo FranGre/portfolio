@@ -39,7 +39,7 @@ function App() {
         <p>Estudio en CIP FP BATOI y realizaré las prácticas en Septiembre &#128197;. Mi objetivo es realizar las prácticas en una empresa que busque continuedad. Ya que en caso de que todo vaya bien, me gustaría quedarme &#9989;.</p>
         <p>&#128161;Las prácticas son una gran oportunidad de entrar al mundo laboral de la programación. Por lo tanto no quiero desaprovecharlas.</p>
       </div>
-      <div>
+      <div className='card'>
         <h2>Conocimientos</h2>
         <a target="_blank">
           <img src={vueLogo} className="logo vue" alt="Vue logo" />
