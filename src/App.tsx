@@ -21,6 +21,8 @@ import viteLogo from '/vite.svg'
 import gmailLogo from '/gmail.svg'
 import githubLogo from '/github.svg'
 
+import Logo from './components/Logo'
+
 import './App.css'
 
 function App() {
@@ -39,66 +41,28 @@ function App() {
         <p>Estudio en CIP FP BATOI y realizaré las prácticas en Septiembre &#128197;. Mi objetivo es realizar las prácticas en una empresa que busque continuedad. Ya que en caso de que todo vaya bien, me gustaría quedarme &#9989;.</p>
         <p>&#128161;Las prácticas son una gran oportunidad de entrar al mundo laboral de la programación. Por lo tanto no quiero desaprovecharlas.</p>
       </div>
+
       <div className='card'>
         <h2>Conocimientos</h2>
-        <a target="_blank">
-          <img src={vueLogo} className="logo vue" alt="Vue logo" />
-        </a>
-        <a target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-        <a target="_blank">
-          <img src={laravelLogo} className="logo laravel" alt="Laravel logo" />
-        </a>
-        <a target="_blank">
-          <img src={wordpressLogo} className="logo wordpress" alt="WordPress logo" />
-        </a>
-        <a target="_blank">
-          <img src={prestashopLogo} className="logo prestashop" alt="PrestaShop logo" />
-        </a>
-        <a target="_blank">
-          <img src={cssLogo} className="logo css" alt="CSS logo" />
-        </a>
-        <a target="_blank">
-          <img src={sassLogo} className="logo sass" alt="SASS logo" />
-        </a>
-        <a target="_blank">
-          <img src={jsLogo} className="logo js" alt="JavaScript logo" />
-        </a>
-        <a target="_blank">
-          <img src={tsLogo} className="logo ts" alt="TypeScript logo" />
-        </a>
-        <a target="_blank">
-          <img src={phpLogo} className="logo php" alt="PHP logo" />
-        </a>
-        <a target="_blank">
-          <img src={javaLogo} className="logo java" alt="Java logo" />
-        </a>
-        <a target="_blank">
-          <img src={htmlLogo} className="logo html" alt="HTML logo" />
-        </a>
-        <a target="_blank">
-          <img src={gitLogo} className="logo git" alt="Git logo" />
-        </a>
-        <a target="_blank">
-          <img src={dockerLogo} className="logo docker" alt="Docker logo" />
-        </a>
-        <a target="_blank">
-          <img src={linuxLogo} className="logo linux" alt="Linux logo" />
-        </a>
-        <a target="_blank">
-          <img src={viteLogo} className="logo vite" alt="Vite logo" />
-        </a>
-        <a target="_blank">
-          <img src={vscodeLogo} className="logo vscode" alt="VSCode logo" />
-        </a>
-        <a target="_blank">
-          <img src={phpstormLogo} className="logo phpstorm" alt="PhpStorm logo" />
-        </a>
-        <a target="_blank">
-          <img src={intellijideaLogo} className="logo intellijidea" alt="IntellijIdea logo" />
-        </a>
-
+        <Logo img={vueLogo} style='vue' name='Vue' />
+        <Logo img={reactLogo} style='react' name='React' />
+        <Logo img={laravelLogo} style='laravel' name='Laravel' />
+        <Logo img={wordpressLogo} style='wordpress' name='WordPress' />
+        <Logo img={prestashopLogo} style='prestashop' name='PrestaShop' />
+        <Logo img={cssLogo} style='css' name='CSS' />
+        <Logo img={sassLogo} style='sass' name='SASS' />
+        <Logo img={jsLogo} style='js' name='JavaScript' />
+        <Logo img={tsLogo} style='ts' name='TypeScript' />
+        <Logo img={phpLogo} style='php' name='PHP' />
+        <Logo img={javaLogo} style='java' name='Java' />
+        <Logo img={htmlLogo} style='html' name='HTML' />
+        <Logo img={gitLogo} style='git' name='Git' />
+        <Logo img={dockerLogo} style='docker' name='Docker' />
+        <Logo img={linuxLogo} style='linux' name='Linux' />
+        <Logo img={viteLogo} style='vite' name='Vite' />
+        <Logo img={vscodeLogo} style='vscode' name='VSCode' />
+        <Logo img={phpstormLogo} style='phpstorm' name='PhpStorm' />
+        <Logo img={intellijideaLogo} style='intellijidea' name='IntellijIdea' />
       </div>
 
       <footer>
