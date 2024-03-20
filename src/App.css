@@ -11,25 +11,90 @@
   will-change: filter;
   transition: filter 300ms;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+
+.logo.vue:hover {
+  filter: drop-shadow(0 0 2em #3f9023);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.logo.laravel:hover {
+  filter: drop-shadow(0 0 2em #e93b17);
+}
+
+.logo.wordpress:hover {
+  filter: drop-shadow(0 0 2em #266c9e);
+}
+
+.logo.prestashop:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.logo.css:hover {
+  filter: drop-shadow(0 0 2em #20577e);
+}
+
+.logo.sass:hover {
+  filter: drop-shadow(0 0 2em #cf3055);
+}
+
+.logo.js:hover {
+  filter: drop-shadow(0 0 2em #b49c1c);
+}
+
+.logo.ts:hover {
+  filter: drop-shadow(0 0 2em #2ea9eb);
+}
+
+.logo.php:hover {
+  filter: drop-shadow(0 0 2em #b08cf9);
+}
+
+.logo.java:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.logo.html:hover {
+  filter: drop-shadow(0 0 2em #f8763b);
+}
+
+.logo.git:hover {
+  filter: drop-shadow(0 0 2em #ae3415);
+}
+
+.logo.docker:hover {
+  filter: drop-shadow(0 0 2em #3d61a6);
+}
+
+.logo.linux:hover {
+  filter: drop-shadow(0 0 2em #549134);
+}
+
+.logo.vite:hover {
+  filter: drop-shadow(0 0 2em #b49c1c);
+}
+
+.logo.vscode:hover {
+  filter: drop-shadow(0 0 2em #2ea9eb);
+}
+
+.logo.phpstorm:hover {
+  filter: drop-shadow(0 0 2em #e93b17);
+}
+
+.logo.intellijidea:hover {
+  filter: drop-shadow(0 0 2em #e93b17);
 }
 
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
   }
 }
 
