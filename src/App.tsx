@@ -48,7 +48,7 @@ function App() {
         <Logo img={reactLogo} style='react' name='React' />
         <Logo img={laravelLogo} style='laravel' name='Laravel' />
         <Logo img={wordpressLogo} style='wordpress' name='WordPress' />
-        <Logo img={prestashopLogo} style='prestashop' name='PrestaShop' />
+        {/* <Logo img={prestashopLogo} style='prestashop' name='PrestaShop' /> */}
         <Logo img={cssLogo} style='css' name='CSS' />
         <Logo img={sassLogo} style='sass' name='SASS' />
         <Logo img={jsLogo} style='js' name='JavaScript' />
