@@ -1,5 +1,5 @@
 import profilePhoto from './assets/profile_photo.svg'
-import reactLogo from './assets/react.svg'
+// import reactLogo from './assets/react.svg'
 import vueLogo from '/vue.svg'
 import laravelLogo from '/laravel.svg'
 import wordpressLogo from '/wordpress.svg'
@@ -45,7 +45,7 @@ function App() {
       <div className='card'>
         <h2>Conocimientos</h2>
         <Logo img={vueLogo} style='vue' name='Vue' />
-        <Logo img={reactLogo} style='react' name='React' />
+        {/* <Logo img={reactLogo} style='react' name='React' /> */}
         <Logo img={laravelLogo} style='laravel' name='Laravel' />
         <Logo img={wordpressLogo} style='wordpress' name='WordPress' />
         {/* <Logo img={prestashopLogo} style='prestashop' name='PrestaShop' /> */}
