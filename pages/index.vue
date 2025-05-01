@@ -12,7 +12,7 @@
         <ul class="mb-24 place-items-center">
             <li>
                 <div class="border border-black rounded-lg max-w-md bg-[#272343] text-[#fffffe] p-4">
-                    <img src="https://github.com/FranGre/FranGre/blob/main/nochedepelis.jpeg" />
+                    <img src="/public/nochedepelis.jpeg" class="rounded-lg" />
                     <div class="m-2">
                         <h3>Nochedepelis</h3>
                         <p class="mt-1">Aplicación web para que mi familia y amigos puedan ver películas.</p>
