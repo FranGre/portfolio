@@ -1,5 +1,5 @@
 <template>
-    <Tag class="bg-green-600">Nginx</Tag>
+    <Tag class="bg-[#009639]">Nginx</Tag>
 </template>
 
 <script setup lang="ts">

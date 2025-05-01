@@ -1,5 +1,5 @@
 <template>
-    <Tag class="bg-sky-400">Tailwind CSS</Tag>
+    <Tag class="bg-[#38BDF8]">Tailwind CSS</Tag>
 </template>
 
 <script setup lang="ts">

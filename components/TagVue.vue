@@ -1,5 +1,5 @@
 <template>
-    <Tag class="bg-emerald-400">Vue</Tag>
+    <Tag class="bg-[#42B883]">Vue</Tag>
 </template>
 
 <script setup lang="ts">
