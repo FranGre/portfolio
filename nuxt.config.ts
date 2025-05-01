@@ -8,6 +8,15 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     '@nuxt/image',
     '@nuxt/scripts',
-    '@nuxt/ui'
-  ]
+    '@nuxt/ui',
+    '@nuxtjs/google-fonts'
+  ],
+  
+  googleFonts: {
+    families: {
+      Roboto: true, // ejemplo
+      'Open+Sans': [300, 400, 600],
+    },
+    display: 'swap',
+  },
 })
