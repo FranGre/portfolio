@@ -1,15 +1,13 @@
 <template>
     <div class="mx-72">
-        <h1 class="text-center text-5xl text-[#272343]">Fran Gregori Tandazo</h1>
-        <p class="text-[#2d334a]">Me considero una persona con iniciativa, curiosa y resolutiva. Cuando me enfrento a un problema, no me quedo
-            parado: busco, pruebo, investigo y, si lo necesito, pregunto.</p>
-        <p class="text-[#2d334a]">Si hay que echar horas fuera del horario para sacar adelante una tarea o seguir aprendiendo, no tengo
-            problema
-            en hacerlo. Disfruto trabajando en equipo, entendiendo las necesidades tanto del cliente como de la empresa,
-            y
-            aportando valor con soluciones útiles, claras y bien construidas.</p>
+        <h1 class="text-center text-5xl text-[#272343] mb-16">Fran Gregori Tandazo</h1>
+        <p class="text-[#2d334a] mb-24">Me considero una persona con iniciativa, curiosa y resolutiva. Cuando me enfrento a un
+            problema, no me quedo parado: busco, pruebo, investigo y, si lo necesito, pregunto.
+            Si hay que echar horas fuera del horario para sacar adelante una tarea o seguir aprendiendo, no tengo
+            problema en hacerlo. Disfruto trabajando en equipo, entendiendo las necesidades tanto del cliente como de la
+            empresa, y aportando valor con soluciones útiles, claras y bien construidas.</p>
 
-        <h2 class="text-center text-2xl text-[#272343]">Proyectos</h2>
+        <h2 class="text-center text-4xl text-[#272343] mb-14">Proyectos</h2>
 
         <ul class="mb-24 place-items-center">
             <li>
@@ -30,9 +28,9 @@
             </li>
         </ul>
     </div>
-    <div class="bg-[#e3f6f5] py-12 w-full">
+    <div class="bg-[#e3f6f5] py-12 w-full mb-24">
         <div class="mx-72">
-            <h2 class="text-center text-2xl text-[#272343]">Tecnologías</h2>
+            <h2 class="text-center text-4xl text-[#272343] mb-14">Tecnologías</h2>
             <div class="grid grid-cols-2 gap-12">
                 <div class="max-w-sm rounded-lg border border-black bg-[#fffffe]">
                     <h3 class="text-center text-3xl my-3 text-[#272343]">Frontend</h3>
@@ -138,11 +136,11 @@
     </div>
 
     <div class="mx-72">
-        <h2 class="text-center text-2xl text-[#272343]">En proceso de aprendizaje</h2>
+        <h2 class="text-center text-4xl text-[#272343]">En proceso de aprendizaje</h2>
+        <div class="mb-24"></div>
 
 
-        <h2 class="text-center text-2xl text-[#272343]">Contacto</h2>
-        <footer class="flex space-x-12 place-content-center">
+        <footer class="flex space-x-12 place-content-center mb-10">
             <a href="mailto:frangregori61@gmail.com" class="flex flex-col place-items-center">
                 <Icon name="logos:google-gmail" size="60"></Icon>
                 <small>frangregori61@gmail.com</small>
