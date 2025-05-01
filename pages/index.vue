@@ -1,11 +1,11 @@
 <template>
     <div class="mx-72">
         <h1 class="text-center text-5xl text-[#272343] mb-16">Fran Gregori Tandazo</h1>
-        <p class="text-[#2d334a] mb-24">Me considero una persona con iniciativa, curiosa y resolutiva. Cuando me enfrento a un
-            problema, no me quedo parado: busco, pruebo, investigo y, si lo necesito, pregunto.
-            Si hay que echar horas fuera del horario para sacar adelante una tarea o seguir aprendiendo, no tengo
+        <p class="text-[#2d334a] text-lg mb-24">Me considero una <strong class="bg-[#ffd803]">persona con iniciativa, curiosa y resolutiva</strong>. Cuando me enfrento a un
+            problema, no me quedo parado: <strong class="bg-[#ffd803]">busco, pruebo, investigo</strong> y, si lo necesito, pregunto.
+        <br/>Si hay que echar horas fuera del horario para sacar adelante una tarea o seguir aprendiendo, no tengo
             problema en hacerlo. Disfruto trabajando en equipo, entendiendo las necesidades tanto del cliente como de la
-            empresa, y aportando valor con soluciones útiles, claras y bien construidas.</p>
+            empresa, y <strong class="font-bold">aportando valor</strong> con soluciones útiles, claras y bien construidas.</p>
 
         <h2 class="text-center text-4xl text-[#272343] mb-14">Proyectos</h2>
 
