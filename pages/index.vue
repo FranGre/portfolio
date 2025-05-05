@@ -111,7 +111,7 @@
                 </div>
 
                 <div class="max-w-sm rounded-lg border border-black bg-[#fffffe]">
-                    <h3 class="text-center text-3xl my-3 text-[#272343]">DevOps / Infraestructura</h3>
+                    <h3 class="text-center text-3xl my-3 text-[#272343]">Infraestructura</h3>
                     <ul class="grid grid-cols-3 gap-1 place-items-center p-3">
                         <li class="flex flex-col text-center duration-200 hover:drop-shadow-[0_0_10px_#003545]">
                             <Icon name="flat-color-icons:linux" size="70" />
