@@ -1,6 +1,6 @@
 <template>
     <div class="mx-72">
-        <h1 class="text-center text-5xl text-[#272343] mb-16">Fran Gregori Tandazo</h1>
+        <h1 class="text-center text-5xl text-[#272343] my-16">Fran Gregori Tandazo</h1>
         <p class="text-[#2d334a] text-lg mb-24">Me considero una <strong class="bg-[#ffd803]">persona con iniciativa,
                 curiosa y resolutiva</strong>. Cuando me enfrento a un
             problema, no me quedo parado: <strong class="bg-[#ffd803]">busco, pruebo, investigo</strong> y, si lo
@@ -143,30 +143,30 @@
         <h2 class="text-center text-4xl text-[#272343] mb-14">Intereses</h2>
         <div class="mb-24">
             <ul class="grid grid-cols-2 gap-6 place-items-center">
-                <li class="max-h-64 h-full p-8 bg-[#e3f6f5]">
-                    <h4 class="text-2xl mb-3 text-[#272343]">🧼💻 Clean Code</h4>
-                    <p class="text-[#2d334a] text-lg">Código autoexplicativo, aplicando DRY, funciones pequeñas,
+                <li class="max-h-64 h-full p-8 bg-[#272343] text-[#fffffe]">
+                    <h4 class="text-2xl mb-3">🧼 Clean Code</h4>
+                    <p class="text-lg font-thin">Código autoexplicativo, aplicando DRY, funciones pequeñas,
                         early return y refactorización.</p>
                 </li>
-                <li class="max-h-64 h-full p-8 bg-[#e3f6f5]">
-                    <h4 class="text-2xl mb-3 text-[#272343]">🧱📐 Principios SOLID</h4>
-                    <p class="text-[#2d334a] text-lg">Aplicados para escribir código fácil de extender y mantenible.</p>
+                <li class="max-h-64 h-full p-8 bg-[#272343] text-[#fffffe]">
+                    <h4 class="text-2xl mb-3">📐 Principios SOLID</h4>
+                    <p class="text-lg font-thin">Aplicados para escribir código fácil de extender y mantenible.</p>
                 </li>
-                <li class="max-h-64 h-full p-8 bg-[#e3f6f5]">
-                    <h4 class="text-2xl mb-3 text-[#272343]">🏗️💡 Arquitectura de Software</h4>
-                    <p class="text-[#2d334a] text-lg">Estructuro aplicaciones pensando en la separación de
+                <li class="max-h-64 h-full p-8 bg-[#272343] text-[#fffffe]">
+                    <h4 class="text-2xl mb-3">🏗️ Arquitectura de Software</h4>
+                    <p class="text-lg font-thin">Estructuro aplicaciones pensando en la separación de
                         responsabilidades.
                     </p>
                 </li>
-                <li class="max-h-64 h-full p-8 bg-[#e3f6f5]">
-                    <h4 class="text-2xl mb-3 text-[#272343]">🎨🖥️ UI/UX</h4>
-                    <p class="text-[#2d334a] text-lg">Combino estética y usabilidad con el fin de crear interfaces que
+                <li class="max-h-64 h-full p-8 bg-[#272343] text-[#fffffe]">
+                    <h4 class="text-2xl mb-3">🎨 UI/UX</h4>
+                    <p class="text-lg font-thin">Combino estética y usabilidad con el fin de crear interfaces que
                         brindan
                         una experiencia fluida y agradable.</p>
                 </li>
-                <li class="max-h-64 h-full p-8 bg-[#e3f6f5]">
-                    <h4 class="text-2xl mb-3 text-[#272343]">🌈🎨 Teoría del Color</h4>
-                    <p class="text-[#2d334a] text-lg">Selecciono colores con conciencia de su impacto visual y
+                <li class="max-h-64 h-full p-8 bg-[#272343] text-[#fffffe]">
+                    <h4 class="text-2xl mb-3">🌈 Teoría del Color</h4>
+                    <p class="text-lg font-thin">Selecciono colores con conciencia de su impacto visual y
                         psicológico,
                         ofreciendo armonía y claridad</p>
                 </li>
