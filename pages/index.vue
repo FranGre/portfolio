@@ -19,7 +19,7 @@
                     <img src="/public/nochedepelis.jpeg" class="rounded-lg" />
                     <div class="m-2">
                         <h3>Nochedepelis</h3>
-                        <p class="mt-1">Aplicación web para que mi familia y amigos puedan ver películas.</p>
+                        <p class="mt-1 text-gray-300">Aplicación web para que mi familia y amigos puedan ver películas.</p>
                         <ul class="flex gap-1 mt-3 text-[#2d334a]">
                             <TagLaravel />
                             <TagVue />
@@ -145,28 +145,28 @@
             <ul class="grid grid-cols-2 gap-6 place-items-center">
                 <li class="max-h-64 h-full p-8 bg-[#272343] text-[#fffffe]">
                     <h4 class="text-2xl mb-3">🧼 Clean Code</h4>
-                    <p class="text-lg font-thin">Código autoexplicativo, aplicando DRY, funciones pequeñas,
+                    <p class="text-lg text-gray-300 font-thin">Código autoexplicativo, aplicando DRY, funciones pequeñas,
                         early return y refactorización.</p>
                 </li>
                 <li class="max-h-64 h-full p-8 bg-[#272343] text-[#fffffe]">
                     <h4 class="text-2xl mb-3">📐 Principios SOLID</h4>
-                    <p class="text-lg font-thin">Aplicados para escribir código fácil de extender y mantenible.</p>
+                    <p class="text-lg text-gray-300 font-thin">Aplicados para escribir código fácil de extender y mantenible.</p>
                 </li>
                 <li class="max-h-64 h-full p-8 bg-[#272343] text-[#fffffe]">
                     <h4 class="text-2xl mb-3">🏗️ Arquitectura de Software</h4>
-                    <p class="text-lg font-thin">Estructuro aplicaciones pensando en la separación de
+                    <p class="text-lg text-gray-300 font-thin">Estructuro aplicaciones pensando en la separación de
                         responsabilidades.
                     </p>
                 </li>
                 <li class="max-h-64 h-full p-8 bg-[#272343] text-[#fffffe]">
                     <h4 class="text-2xl mb-3">🎨 UI/UX</h4>
-                    <p class="text-lg font-thin">Combino estética y usabilidad con el fin de crear interfaces que
+                    <p class="text-lg text-gray-300 font-thin">Combino estética y usabilidad con el fin de crear interfaces que
                         brindan
                         una experiencia fluida y agradable.</p>
                 </li>
                 <li class="max-h-64 h-full p-8 bg-[#272343] text-[#fffffe]">
                     <h4 class="text-2xl mb-3">🌈 Teoría del Color</h4>
-                    <p class="text-lg font-thin">Selecciono colores con conciencia de su impacto visual y
+                    <p class="text-lg text-gray-300 font-thin">Selecciono colores con conciencia de su impacto visual y
                         psicológico,
                         ofreciendo armonía y claridad</p>
                 </li>
