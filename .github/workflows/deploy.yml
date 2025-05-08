@@ -9,8 +9,10 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Connect to vps by using ssh
+      - name: Generate key and gives 600
         run: |
           echo "${{secrets.SSH_PRIVATE_KEY}}" > clave
           chmod 600 clave
+      - name: Connect to vps by using ssh
+        run: |
           ssh -i clave -o StrictHostKeyChecking=no ubuntu@51.38.227.177 -p 60313
