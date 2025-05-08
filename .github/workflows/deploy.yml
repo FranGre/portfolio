@@ -19,6 +19,7 @@ jobs:
             cd /var/www/portfolio
             npm i
             npm run build
-            pm2 startup
+            pm2 start .output/server/index.mjs --name portfolio
+            pm2 restart portfolio
             pm2 save
           EOF
