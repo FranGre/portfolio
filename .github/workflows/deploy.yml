@@ -6,8 +6,8 @@ on:
       - main
 
 jobs:
-  test:
+  deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Check if workflow triggers correctly
-        run: echo "✅ El workflow se ha ejecutado correctamente"
+      - name: Connect to vps by using ssh
+        run: ssh -i ~/.ssh/ovhcloud -v ubuntu@51.38.227.177 -p 60313
