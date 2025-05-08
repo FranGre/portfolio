@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Connect to vps by using ssh
-        run: ssh -i ~/.ssh/ovhcloud -v ubuntu@51.38.227.177 -p 60313
+        run: ssh -i {{secrets.SSH_PRIVATE_KEY}} -v ubuntu@51.38.227.177 -p 60313
