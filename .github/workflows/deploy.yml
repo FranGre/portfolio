@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Connect to vps by using ssh
-        run: echo "${{secrets.SSH_PRIVATE_KEY}}" > clave
+        run: |
+          echo "${{secrets.SSH_PRIVATE_KEY}}" > clave
           chmod 600 clave
           ssh -i clave -o StrictHostKeyChecking=no ubuntu@51.38.227.177 -p 60313
