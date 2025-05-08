@@ -1,5 +1,5 @@
 <template>
-    <div class="mx-12 lg:mx-72">
+    <div class="mx-9 lg:mx-72">
         <h1 class="text-center text-5xl text-[#272343] my-16">Fran Gregori Tandazo</h1>
         <p class="text-[#2d334a] text-lg mb-24">Me considero una <strong class="bg-[#ffd803]">persona con iniciativa,
                 curiosa y resolutiva</strong>. Cuando me enfrento a un
@@ -34,7 +34,7 @@
         </ul>
     </div>
     <div class="bg-[#e3f6f5] py-12 w-full mb-24">
-        <div class="mx-12 lg:mx-72">
+        <div class="mx-9 lg:mx-72">
             <h2 class="text-center text-4xl text-[#272343] mb-14">Tecnologías</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
                 <div class="max-w-sm rounded-lg border border-black bg-[#fffffe]">
@@ -140,7 +140,7 @@
         </div>
     </div>
 
-    <div class="mx-12 lg:mx-72">
+    <div class="mx-9 lg:mx-72">
         <h2 class="text-center text-4xl text-[#272343] mb-14">Intereses</h2>
         <div class="mb-24">
             <ul class="grid grid-cols-1 lg:grid-cols-2 gap-6 place-items-center">
