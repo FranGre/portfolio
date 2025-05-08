@@ -3,12 +3,15 @@
         <h1 class="text-center text-5xl text-[#272343] my-16">Fran Gregori Tandazo</h1>
         <p class="text-[#2d334a] text-lg mb-24">Me considero una <strong class="bg-[#ffd803]">persona con iniciativa,
                 curiosa y resolutiva</strong>. Cuando me enfrento a un
-            problema, no me quedo parado: <strong class="bg-[#ffd803]">busco, pruebo, investigo</strong> y, si lo
+            problema, no me quedo parado: busco, pruebo, investigo y, si lo
             necesito, pregunto.
-            <br />Si hay que echar horas fuera del horario para sacar adelante una tarea o seguir aprendiendo, no tengo
-            problema en hacerlo. Disfruto trabajando en equipo, entendiendo las necesidades tanto del cliente como de la
-            empresa, y <strong class="font-bold">aportando valor</strong> con soluciones útiles, claras y bien
-            construidas.
+            <br />
+            <br />
+            No me conformo con que algo simplemente funcione: busco que el código sea legible, mantenible y
+            escalable. Aunque estoy empezando mi carrera, <strong>me interesan</strong> profundamente conceptos como los <strong class="bg-[#ffd803]">principios
+            SOLID,</strong> la <strong class="bg-[#ffd803]">arquitectura de software</strong> y el <strong class="bg-[#ffd803]">código limpio.</strong> Sé que muchos de estos temas suelen asociarse a
+            perfiles senior, pero estoy convencido de que <strong>se empieza por la actitud.</strong> Por eso, <strong>sigo aprendiendo todo el
+            tiempo</strong>: viendo cursos, leyendo documentación, haciendo pruebas, y preguntando cuando lo necesito.
         </p>
 
         <h2 class="text-center text-4xl text-[#272343] mb-14">Proyectos</h2>
