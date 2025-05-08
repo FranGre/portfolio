@@ -1,6 +1,6 @@
 <template>
     <div class="mx-6 lg:mx-72">
-        <h1 class="text-center text-5xl text-[#272343] my-16">Jorge Gregori Tandazo</h1>
+        <h1 class="text-center text-5xl text-[#272343] my-16">Fran Gregori Tandazo</h1>
         <p class="text-[#2d334a] text-lg mb-24">Me considero una <strong class="bg-[#ffd803]">persona con iniciativa,
                 curiosa y resolutiva</strong>. Cuando me enfrento a un
             problema, no me quedo parado: busco, pruebo, investigo y, si lo
