@@ -178,22 +178,22 @@
         </div>
 
 
-        <footer class="flex space-x-12 place-content-center mb-10">
-            <a href="mailto:frangregori61@gmail.com" class="flex flex-col place-items-center">
-                <Icon name="logos:google-gmail" size="60"></Icon>
-                <small>frangregori61@gmail.com</small>
-            </a>
-
+        <footer class="flex space-x-6 lg:space-x-12 place-content-center mb-10">
             <a href="https://www.linkedin.com/in/fran-gregori-849409279/" target="_blank"
                 class="flex flex-col place-items-center">
                 <Icon name="devicon:linkedin" size="60"></Icon>
-                <small>fran gregori</small>
-            </a>
-            <a href="https://github.com/FranGre" target="_blank" class="flex flex-col place-items-center">
-                <Icon name="ri:github-fill" size="60"></Icon>
-                <small>FranGre</small>
+                <small class="text-center">fran gregori</small>
             </a>
 
+            <a href="mailto:frangregori61@gmail.com" class="flex flex-col place-items-center">
+                <Icon name="logos:google-gmail" size="60"></Icon>
+                <small class="text-center">frangregori61@gmail.com</small>
+            </a>
+
+            <a href="https://github.com/FranGre" target="_blank" class="flex flex-col place-items-center">
+                <Icon name="ri:github-fill" size="60"></Icon>
+                <small class="text-center">FranGre</small>
+            </a>
         </footer>
     </div>
 </template>
