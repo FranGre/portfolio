@@ -1,0 +1,13 @@
+name: Deployment
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check if workflow triggers correctly
+        run: echo "✅ El workflow se ha ejecutado correctamente"

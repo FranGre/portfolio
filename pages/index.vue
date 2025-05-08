@@ -188,7 +188,7 @@
             <a href="https://github.com/FranGre" target="_blank" class="flex flex-col place-items-center">
                 <Icon name="ri:github-fill" size="60"></Icon>
                 <small>FranGre</small>
-            </a>
+            </a> 
 
         </footer>
     </div>
