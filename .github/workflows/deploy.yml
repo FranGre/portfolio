@@ -16,3 +16,10 @@ jobs:
       - name: Connect to vps by using ssh
         run: |
           ssh -i clave -o StrictHostKeyChecking=no ubuntu@51.38.227.177 -p 60313
+      - name: Install dependecies
+        run: |
+          cd /var/www/portfolio
+          npm i
+          npm run build
+          pm2 startup
+          pm2 save
