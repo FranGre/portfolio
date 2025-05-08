@@ -17,6 +17,8 @@ jobs:
         run: |
           ssh -i clave -o StrictHostKeyChecking=no ubuntu@51.38.227.177 -p 60313 << 'EOF'
             cd /var/www/portfolio
+            git fetch
+            git pull
             npm i
             npm run build
             pm2 delete portfolio || true
