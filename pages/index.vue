@@ -1,5 +1,5 @@
 <template>
-    <div class="mx-72">
+    <div class="mx-12 lg:mx-72">
         <h1 class="text-center text-5xl text-[#272343] my-16">Fran Gregori Tandazo</h1>
         <p class="text-[#2d334a] text-lg mb-24">Me considero una <strong class="bg-[#ffd803]">persona con iniciativa,
                 curiosa y resolutiva</strong>. Cuando me enfrento a un
@@ -139,10 +139,10 @@
         </div>
     </div>
 
-    <div class="mx-72">
+    <div class="mx-12 lg:mx-72">
         <h2 class="text-center text-4xl text-[#272343] mb-14">Intereses</h2>
         <div class="mb-24">
-            <ul class="grid grid-cols-2 gap-6 place-items-center">
+            <ul class="grid grid-cols-1 lg:grid-cols-2 gap-6 place-items-center">
                 <li class="max-h-64 h-full p-8 bg-[#272343] text-[#fffffe]">
                     <h4 class="text-2xl mb-3">🧼 Clean Code</h4>
                     <p class="text-lg text-gray-300 font-thin">Código autoexplicativo, aplicando DRY, funciones pequeñas,
