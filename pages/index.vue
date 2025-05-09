@@ -41,7 +41,7 @@
         </ul>
     </div>
     <div class="bg-[#e3f6f5] py-12 w-full mb-24">
-        <div class="mx-6 lg:mx-48 xl:mx-72">
+        <div class="mx-6 place-items-center lg:mx-48 xl:mx-72">
             <h2 class="text-center text-4xl text-[#272343] mb-14">Tecnologías</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
                 <div class="max-w-sm rounded-lg border border-black bg-[#fffffe]">
