@@ -8,10 +8,14 @@
             <br />
             <br />
             No me conformo con que algo simplemente funcione: busco que el código sea legible, mantenible y
-            escalable. Aunque estoy empezando mi carrera, <strong>me interesan</strong> profundamente conceptos como los <strong class="bg-[#ffd803]">principios
-            SOLID,</strong> la <strong class="bg-[#ffd803]">arquitectura de software</strong> y el <strong class="bg-[#ffd803]">código limpio.</strong> Sé que muchos de estos temas suelen asociarse a
-            perfiles senior, pero estoy convencido de que <strong>se empieza por la actitud.</strong> Por eso, <strong>sigo aprendiendo todo el
-            tiempo</strong>: viendo cursos, leyendo documentació, haciendo pruebas, y preguntando cuando lo necesito.
+            escalable. Aunque estoy empezando mi carrera, <strong>me interesan</strong> profundamente conceptos como los
+            <strong class="bg-[#ffd803]">principios
+                SOLID,</strong> la <strong class="bg-[#ffd803]">arquitectura de software</strong> y el <strong
+                class="bg-[#ffd803]">código limpio.</strong> Sé que muchos de estos temas suelen asociarse a
+            perfiles senior, pero estoy convencido de que <strong>se empieza por la actitud.</strong> Por eso,
+            <strong>sigo aprendiendo todo el
+                tiempo</strong>: viendo cursos, leyendo documentació, haciendo pruebas, y preguntando cuando lo
+            necesito.
         </p>
 
         <h2 class="text-center text-4xl text-[#272343] mb-14">Proyectos</h2>
@@ -147,31 +151,31 @@
         <h2 class="text-center text-4xl text-[#272343] mb-14">Intereses</h2>
         <div class="mb-24">
             <ul class="grid grid-cols-1 md:grid-cols-2 gap-6 place-items-center">
-                <li class="max-h-64 h-full max-w-[100] w-full p-8 bg-[#272343] text-[#fffffe]">
+                <li class="max-h-64 h-full p-8 bg-[#272343] text-[#fffffe]">
                     <h4 class="text-2xl mb-3">🧼 Clean Code</h4>
                     <p class="text-lg text-gray-300 font-thin">Código autoexplicativo, aplicando DRY, funciones
                         pequeñas,
                         early return y refactorización.</p>
                 </li>
-                <li class="max-h-64 h-full max-w-[100] w-full p-8 bg-[#272343] text-[#fffffe]">
+                <li class="max-h-64 h-full p-8 bg-[#272343] text-[#fffffe]">
                     <h4 class="text-2xl mb-3">📐 Principios SOLID</h4>
-                    <p class="text-lg text-gray-300 font-thin">Aplicados para escribir código fácil de extender y
-                        mantenible.</p>
+                    <p class="text-lg text-gray-300 font-thin">Aplicados para escribir código que sea fácil de mantener,
+                        extender y reutilizar, promoviendo un diseño limpio y robusto.</p>
                 </li>
-                <li class="max-h-64 h-full max-w-[100] w-full p-8 bg-[#272343] text-[#fffffe]">
+                <li class="max-h-64 h-full p-8 bg-[#272343] text-[#fffffe]">
                     <h4 class="text-2xl mb-3">🏗️ Arquitectura de Software</h4>
                     <p class="text-lg text-gray-300 font-thin">Estructuro aplicaciones pensando en la separación de
                         responsabilidades.
                     </p>
                 </li>
-                <li class="max-h-64 h-full max-w-[100] w-full p-8 bg-[#272343] text-[#fffffe]">
+                <li class="max-h-64 h-full p-8 bg-[#272343] text-[#fffffe]">
                     <h4 class="text-2xl mb-3">🎨 UI/UX</h4>
                     <p class="text-lg text-gray-300 font-thin">Combino estética y usabilidad con el fin de crear
                         interfaces que
                         brindan
                         una experiencia fluida y agradable.</p>
                 </li>
-                <li class="max-h-64 h-full max-w-[100] w-full p-8 bg-[#272343] text-[#fffffe]">
+                <li class="max-h-64 h-full p-8 bg-[#272343] text-[#fffffe]">
                     <h4 class="text-2xl mb-3">🌈 Teoría del Color</h4>
                     <p class="text-lg text-gray-300 font-thin">Selecciono colores con conciencia de su impacto visual y
                         psicológico,
