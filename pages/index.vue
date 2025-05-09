@@ -12,9 +12,9 @@
             <strong class="bg-[#ffd803]">principios
                 SOLID,</strong> la <strong class="bg-[#ffd803]">arquitectura de software</strong> y el <strong
                 class="bg-[#ffd803]">código limpio.</strong> Sé que muchos de estos temas suelen asociarse a
-            perfiles senior, pero estoy convencido de que <strong>se empieza por la actitud.</strong> Por eso,
+            perfiles senior, pero estoy convencido de que <strong>se empieza por la <strong class="bg-[#ffd803]">actitud</strong>.</strong> Por eso,
             <strong>sigo aprendiendo todo el
-                tiempo</strong>: viendo cursos, leyendo documentació, haciendo pruebas, y preguntando cuando lo
+                tiempo</strong>: viendo cursos, leyendo documentación, haciendo pruebas y preguntando cuando lo
             necesito.
         </p>
 

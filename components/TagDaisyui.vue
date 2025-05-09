@@ -1,5 +1,5 @@
 <template>
-    <Tag class="bg-yellow-400">Daisy UI</Tag>
+    <Tag class="bg-yellow-400">Daisy</Tag>
 </template>
 
 <script setup lang="ts">
