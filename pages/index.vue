@@ -154,13 +154,12 @@
                 <li class="max-h-64 h-full p-8 bg-[#272343] text-[#fffffe]">
                     <h4 class="text-2xl mb-3">🧼 Clean Code</h4>
                     <p class="text-lg text-gray-300 font-thin">Código autoexplicativo, aplicando DRY, funciones
-                        pequeñas,
-                        early return y refactorización.</p>
+                        pequeñas, early return y refactorización.</p>
                 </li>
                 <li class="max-h-64 h-full p-8 bg-[#272343] text-[#fffffe]">
                     <h4 class="text-2xl mb-3">📐 Principios SOLID</h4>
-                    <p class="text-lg text-gray-300 font-thin">Aplicados para escribir código que sea fácil de mantener,
-                        extender y reutilizar, promoviendo un diseño limpio y robusto.</p>
+                    <p class="text-lg text-gray-300 font-thin">Aprendiendo principios SOLID
+                        para escribir código más mantenible, flexible y bien estructurado.</p>
                 </li>
                 <li class="max-h-64 h-full p-8 bg-[#272343] text-[#fffffe]">
                     <h4 class="text-2xl mb-3">🏗️ Arquitectura de Software</h4>
