@@ -1,5 +1,5 @@
 <template>
-    <Tag class="bg-[#009639]">Nginx</Tag>
+    <Tag class="bg-[#009639]"><a href="https://nginx.org/en/docs/http/configuring_https_servers.html" target="_blank">Nginx</a></Tag>
 </template>
 
 <script setup lang="ts">

@@ -1,5 +1,5 @@
 <template>
-    <Tag class="bg-[#42B883]">Vue</Tag>
+    <Tag class="bg-[#42B883]"><a href="https://vuejs.org/guide/introduction.html" target="_blank">Vue</a></Tag>
 </template>
 
 <script setup lang="ts">

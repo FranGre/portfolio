@@ -25,7 +25,7 @@
                 <div class="border border-black rounded-lg max-w-md bg-[#272343] text-[#fffffe] p-4">
                     <img src="/public/nochedepelis.jpeg" class="rounded-lg" />
                     <div class="m-2">
-                        <h3>Nochedepelis</h3>
+                        <h3><a href="https://nochedepelis.xyz" target="_blank">nochedepelis.xyz</a></h3>
                         <p class="mt-1 text-gray-300">Aplicación web para que mi familia y amigos puedan ver películas.
                         </p>
                         <ul class="flex gap-1 mt-3 text-[#2d334a]">
@@ -120,7 +120,7 @@
 
                 <div class="max-w-sm rounded-lg border border-black bg-[#fffffe]">
                     <h3 class="text-center text-3xl my-3 text-[#272343]">Infraestructura</h3>
-                    <ul class="grid grid-cols-3 gap-1 place-items-center p-3">
+                    <ul class="grid grid-cols-3 gap-4 place-items-center p-3">
                         <li class="flex flex-col text-center duration-200 hover:drop-shadow-[0_0_10px_#003545]">
                             <Icon name="flat-color-icons:linux" size="70" />
                             <small>Linux</small>
