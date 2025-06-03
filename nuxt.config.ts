@@ -19,4 +19,6 @@ export default defineNuxtConfig({
     },
     display: 'swap',
   },
+
+  css: ['highlight.js/styles/atom-one-dark-reasonable.css']
 })
