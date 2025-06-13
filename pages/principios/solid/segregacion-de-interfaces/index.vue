@@ -1,7 +1,7 @@
 <template>
     <div class="mx-6 lg:mx-48 xl:mx-72">
         <NavMenu />
-        <h1 class="text-center text-5xl text-[#272343] my-16">Interface Segregation</h1>
+        <h1 class="text-center text-5xl text-[#272343] my-16">Segregación de Interfaces</h1>
 
         <p class="text-[#2d334a] text-lg mb-6">
             Una clase no debería estar obligada a implementar <strong class="bg-[#ffd803]">métodos que no

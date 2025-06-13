@@ -30,23 +30,23 @@
         <div class="mx-6 lg:mx-48 xl:mx-72">
             <ul class="text-[#2d334a] text-lg grid grid-cols-1 md:grid-cols-2 gap-10">
                 <li class="p-4 text-center max-w-sm rounded-lg border border-black bg-[#fffffe] hover:cursor-pointer transition duration-200 hover:shadow-md hover:scale-102"
-                    @click="goTo('/principios/solid/single-responsibility')">
+                    @click="goTo('/principios/solid/responsabilidad-unica')">
                     <h2 class="text-center text-2xl my-3 text-[#272343]">1.Responsabilidad única</h2>
                 </li>
                 <li class="p-4 text-center max-w-sm rounded-lg border border-black bg-[#fffffe] hover:cursor-pointer transition duration-200 hover:shadow-md hover:scale-102"
-                    @click="goTo('/principios/solid/open-closed')">
+                    @click="goTo('/principios/solid/abierto-cerrado')">
                     <h2 class="text-center text-2xl my-3 text-[#272343]">2.Abierto/Cerrado</h2>
                 </li>
                 <li class="p-4 text-center max-w-sm rounded-lg border border-black bg-[#fffffe] hover:cursor-pointer transition duration-200 hover:shadow-md hover:scale-102"
-                    @click="goTo('/principios/solid/liskov-substitution')">
+                    @click="goTo('/principios/solid/sustitucion-de-liskov')">
                     <h2 class="text-center text-2xl my-3 text-[#272343]">3.Sustitución de Liskov</h2>
                 </li>
                 <li class="p-4 text-center max-w-sm rounded-lg border border-black bg-[#fffffe] hover:cursor-pointer transition duration-200 hover:shadow-md hover:scale-102"
-                    @click="goTo('/principios/solid/interface-segregation')">
+                    @click="goTo('/principios/solid/segregacion-de-interfaces')">
                     <h2 class="text-center text-2xl my-3 text-[#272343]">4.Segregación de Interfaces</h2>
                 </li>
                 <li class="p-4 text-center max-w-sm rounded-lg border border-black bg-[#fffffe] hover:cursor-pointer transition duration-200 hover:shadow-md hover:scale-102"
-                    @click="goTo('/principios/solid/dependency-inversion')">
+                    @click="goTo('/principios/solid/inversion-de-dependencias')">
                     <h2 class="text-center text-2xl my-3 text-[#272343]">5.Inversión de Dependencias</h2>
                 </li>
             </ul>

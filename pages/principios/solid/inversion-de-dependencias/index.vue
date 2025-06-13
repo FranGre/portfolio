@@ -1,7 +1,7 @@
 <template>
     <div class="mx-6 lg:mx-48 xl:mx-72">
         <NavMenu />
-        <h1 class="text-center text-5xl text-[#272343] my-16">Dependency Inversion</h1>
+        <h1 class="text-center text-5xl text-[#272343] my-16">Inversión de Dependencias</h1>
 
         <p class="text-[#2d334a] text-lg mb-6">
             Un módulo o componente necesita de otro para poder realizar su trabajo. Sin embargo, debe <strong
