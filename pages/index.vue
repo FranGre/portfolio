@@ -1,5 +1,6 @@
 <template>
     <div class="mx-6 lg:mx-48 xl:mx-72">
+        <NavMenu />
         <h1 class="text-center text-5xl text-[#272343] my-16">Fran Gregori Tandazo</h1>
         <p class="text-[#2d334a] text-lg mb-24">Me considero una <strong class="bg-[#ffd803]">persona con iniciativa,
                 curiosa y resolutiva</strong>. Cuando me enfrento a un
@@ -12,7 +13,8 @@
             <strong class="bg-[#ffd803]">principios
                 SOLID,</strong> la <strong class="bg-[#ffd803]">arquitectura de software</strong> y el <strong
                 class="bg-[#ffd803]">código limpio.</strong> Sé que muchos de estos temas suelen asociarse a
-            perfiles senior, pero estoy convencido de que <strong>se empieza por la <strong class="bg-[#ffd803]">actitud</strong>.</strong> Por eso,
+            perfiles senior, pero estoy convencido de que <strong>se empieza por la <strong
+                    class="bg-[#ffd803]">actitud</strong>.</strong> Por eso,
             <strong>sigo aprendiendo todo el
                 tiempo</strong>: viendo cursos, leyendo documentación, haciendo pruebas y preguntando cuando lo
             necesito.
@@ -211,4 +213,10 @@ import TagLaravel from '~/components/TagLaravel.vue';
 import TagNginx from '~/components/TagNginx.vue';
 import TagTailwindcss from '~/components/TagTailwindcss.vue';
 import TagVue from '~/components/TagVue.vue';
+
+const router = useRouter();
+
+function goTo(path: string) {
+    router.push(path);
+}
 </script>

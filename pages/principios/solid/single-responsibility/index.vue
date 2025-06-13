@@ -1,14 +1,16 @@
 <template>
     <div class="mx-6 lg:mx-48 xl:mx-72">
+        <NavMenu />
         <h1 class="text-center text-5xl text-[#272343] my-16">Responsabilidad Única</h1>
 
         <p class="text-[#2d334a] text-lg">
             Cada clase o módulo debe tener <strong class="bg-[#ffd803]">una única razón para cambiar</strong>.
-            <br/>
-            <br/>
-            Esto no significa que una clase solo haga una sola cosa. Significa que debe encargarse de un solo tipo de responsabilidad.
-            <br/>
-            <br/>
+            <br />
+            <br />
+            Esto no significa que una clase solo haga una sola cosa. Significa que debe encargarse de un solo tipo de
+            responsabilidad.
+            <br />
+            <br />
         </p>
 
         <p class="text-[#2d334a] text-lg">
@@ -41,23 +43,23 @@
 </template>
 
 <script setup lang="ts">
-    import { onMounted } from 'vue';
-    import hljs from 'highlight.js/lib/core';
-    import typescript from 'highlight.js/lib/languages/typescript';
+import { onMounted } from 'vue';
+import hljs from 'highlight.js/lib/core';
+import typescript from 'highlight.js/lib/languages/typescript';
 
-    hljs.registerLanguage('typescript', typescript);
+hljs.registerLanguage('typescript', typescript);
 
-    onMounted(() => {
-        if (goodCodeBlock.value) {
-            hljs.highlightElement(goodCodeBlock.value);
-        }
+onMounted(() => {
+    if (goodCodeBlock.value) {
+        hljs.highlightElement(goodCodeBlock.value);
+    }
 
-        if (badCodeBlock.value) {
-            hljs.highlightElement(badCodeBlock.value);
-        }
-    });
+    if (badCodeBlock.value) {
+        hljs.highlightElement(badCodeBlock.value);
+    }
+});
 
-    const good = `// good.ts
+const good = `// good.ts
 class UserService {
     create(){}
     update(){}
@@ -68,7 +70,7 @@ class EmailSender {
     sendEmail(){}
 }`;
 
-    const bad = `// bad.ts
+const bad = `// bad.ts
 class UserService {
     create(){}
     update(){}
@@ -76,10 +78,10 @@ class UserService {
     sendEmail(){}
 }`;
 
-    const goodCodeBlock = ref(null);
-    const badCodeBlock = ref(null);
+const goodCodeBlock = ref(null);
+const badCodeBlock = ref(null);
 
-    function goTo(path: string){
-        router.push(path);
-    }
+function goTo(path: string) {
+    router.push(path);
+}
 </script>
