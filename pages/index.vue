@@ -213,10 +213,4 @@ import TagLaravel from '~/components/TagLaravel.vue';
 import TagNginx from '~/components/TagNginx.vue';
 import TagTailwindcss from '~/components/TagTailwindcss.vue';
 import TagVue from '~/components/TagVue.vue';
-
-const router = useRouter();
-
-function goTo(path: string) {
-    router.push(path);
-}
 </script>

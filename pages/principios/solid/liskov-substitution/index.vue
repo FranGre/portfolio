@@ -65,8 +65,4 @@
 
     const goodCodeBlock = ref(null);
     const badCodeBlock = ref(null);
-
-    function goTo(path: string){
-        router.push(path);
-    }
 </script>
